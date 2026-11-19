@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "PassoLivre",
+    "slug": "passolivre",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "infoPlist": {"NSLocationWhenInUseUsageDescription":"Sua localização ajuda a indicar o local do obstáculo, com sua autorização.","NSPhotoLibraryUsageDescription":"Permita selecionar uma foto do obstáculo para anexar ao registro."} },
+    "android": { "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"] },
+    "plugins": [["expo-image-picker", {"photosPermission":"Permita selecionar uma foto da barreira de acessibilidade."}], ["expo-location", {"locationWhenInUsePermission":"Sua localização será usada apenas quando você solicitar."}]],
+    "description": "Protótipo CitizenTech de mapeamento colaborativo de barreiras urbanas com dados locais e acessibilidade."
+  }
+}
